@@ -4,8 +4,11 @@
   <artifactId>jtest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <name>jtest</name>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
+    
     <resources>
       <resource>
         <directory>src</directory>
@@ -14,6 +17,7 @@
         </excludes>
       </resource>
     </resources>
+    
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -32,5 +36,6 @@
         </configuration>
       </plugin>
     </plugins>
+  
   </build>
 </project>
